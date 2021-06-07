@@ -5,8 +5,10 @@ declare module 'styled-components' {
     basicWidth: string;
 
     color: {
-      main: string;
-      sub: string;
+      black: string;
+      white: string;
+      red: string;
+      ivory: string;
     };
   }
 }
