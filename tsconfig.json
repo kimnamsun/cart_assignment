@@ -1,30 +1,35 @@
 {
+  "extends": "./tsconfig.path.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "paths": {
-      "@components/*": ["src/components/*"],
-      "@styles/*": ["src/styles/*"],
-      "@atoms": ["src/common/atoms"],
-      "@pages/*": ["src/pages/*"],
-      "@constants": ["src/common/constants"]
-    },
-    "typeRoots": ["./node_modules/@types", "@types"]
+    "typeRoots": [
+      "./node_modules/@types",
+      "@types"
+    ],
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.{test|spec}.tsx"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.{test|spec}.tsx"
+  ]
 }
