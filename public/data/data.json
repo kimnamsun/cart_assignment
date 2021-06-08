@@ -2,21 +2,51 @@
   "products": [
     {
       "id": 1,
-      "name": "모짜렐라 카우",
-      "price": 25000,
-      "img": "https://img-cf.kurly.com/shop/data/goods/1595313738794i0.jpg"
+      "name": "BASIC NECK T-SHIRT",
+      "price": 45000,
+      "img": "http://lowclassic.com/web/product/extra/small/202104/e02de14d5cdb2878cb51f812c2b9fa6e.jpg"
     },
     {
       "id": 2,
-      "name": "아보카도 1개",
-      "price": 2000,
-      "img": "https://img-cf.kurly.com/shop/data/goods/1470791120657i0.jpg"
+      "name": "SLIM WAIST SHIRT",
+      "price": 78000,
+      "img": "http://lowclassic.com/web/product/extra/small/202104/89f94dc7c75a9edc0a6fa6ad17695ff3.jpg"
     },
     {
       "id": 3,
-      "name": "오븐에 구운 연어",
-      "price": 19000,
-      "img": "https://img-cf.kurly.com/shop/data/goods/1596609911765i0.jpg"
+      "name": "V-NECK RIB KNIT",
+      "price": 93000,
+      "img": "http://lowclassic.com/web/product/extra/small/202104/6c9c73505870408ffefde6b09925796f.jpg"
+    },
+    {
+      "id": 4,
+      "name": "SLIM LINE SKIRT",
+      "price": 87000,
+      "img": "http://lowclassic.com/web/product/extra/small/202103/5efa9f3a76b341eecc4ca01eb298fd01.jpg"
+    },
+    {
+      "id": 5,
+      "name": "ICE LINEN KNIT",
+      "price": 58000,
+      "img": "http://lowclassic.com/web/product/extra/small/202103/832dc7a49f667eee8018647446004196.jpg"
+    },
+    {
+      "id": 6,
+      "name": "BANDING POCKET PANTS",
+      "price": 78000,
+      "img": "http://lowclassic.com/web/product/extra/small/202103/384baf87521361c36ed5ac34fa437c81.jpg"
+    },
+    {
+      "id": 7,
+      "name": "COTTON HALF PANTS",
+      "price": 58000,
+      "img": "http://lowclassic.com/web/product/extra/small/202103/a789847834ba6fdefac8bfeceda23c3c.jpg"
+    },
+    {
+      "id": 8,
+      "name": "SLIM LINE SKIRT",
+      "price": 93000,
+      "img": "http://lowclassic.com/web/product/extra/small/202103/52b8d65f065434f655a12789f7410279.jpg"
     }
   ]
 }
