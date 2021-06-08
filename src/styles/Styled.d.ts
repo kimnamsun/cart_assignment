@@ -11,4 +11,9 @@ declare module 'styled-components' {
       ivory: string;
     };
   }
+
+  export interface FlexSetProps {
+    justifyContent: string;
+    alignItems: string;
+  }
 }

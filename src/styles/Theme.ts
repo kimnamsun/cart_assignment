@@ -11,4 +11,8 @@ const theme: DefaultTheme = {
   },
 };
 
-export { theme };
+const flexSet = (justifyContent: string, alignItems: string) => {
+  return `display: flex; justify-content: ${justifyContent}; align-items: ${alignItems};`;
+};
+
+export { theme, flexSet };
