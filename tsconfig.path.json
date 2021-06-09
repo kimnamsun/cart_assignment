@@ -4,8 +4,11 @@
     "paths": {
       "@components/*": ["./components/*"],
       "@styles/*": ["./styles/*"],
-      "@atoms": ["./common/atoms"],
+      "@api/*": ["./api/*"],
       "@pages/*": ["./pages/*"],
+      "@atoms": ["./common/atoms"],
+      "@config": ["./common/config"],
+      "@utils": ["./common/utils"],
       "@constants": ["./common/constants"]
     }
   }

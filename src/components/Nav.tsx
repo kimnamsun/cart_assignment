@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import { flexSet } from '@styles/Theme';
+import { configs } from '@config';
 
 const Nav = () => {
   const history = useHistory();
@@ -12,7 +13,7 @@ const Nav = () => {
 
   return (
     <Wrapper>
-      <Logo>SUNNYSHOP</Logo>
+      <Logo>{configs.SITE_NAME}</Logo>
       <Cart onClick={goToCart}>
         <i className="xi-cart-o" />
         <Badge>
@@ -27,7 +28,7 @@ export default Nav;
 
 const Wrapper = styled.div`
   ${flexSet('space-between', 'center')};
-  padding: 3rem;
+  padding: 3rem 6rem;
   max-height: 100px;
   background-color: ${({ theme }) => theme.color.black};
 `;
@@ -37,11 +38,13 @@ const Logo = styled.h1`
   color: ${({ theme }) => theme.color.white};
 `;
 
-const Cart = styled.button`
+const Cart = styled.div`
   position: relative;
-  background-color: ${({ theme }) => theme.color.black};
-  font-size: 30px;
   color: ${({ theme }) => theme.color.white};
+
+  i {
+    font-size: 2.5rem;
+  }
 `;
 
 const Badge = styled.button`
