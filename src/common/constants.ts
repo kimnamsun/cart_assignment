@@ -1,8 +1,8 @@
 import packageJson from '../../package.json';
 
-interface DefaultProps {
+export interface Product {
   id: number;
-  model_name: string;
-  created_at: string;
-  updated_at: string;
+  name: string;
+  price: number;
+  img: string;
 }
