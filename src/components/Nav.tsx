@@ -1,11 +1,19 @@
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 import { flexSet } from '@styles/Theme';
 
 const Nav = () => {
+  const history = useHistory();
+
+  const goToCart = () => {
+    history.push('/cart');
+  };
+
   return (
     <Wrapper>
       <Logo>SUNNYSHOP</Logo>
-      <Cart>
+      <Cart onClick={goToCart}>
         <i className="xi-cart-o" />
         <Badge>
           <Amount>1</Amount>
